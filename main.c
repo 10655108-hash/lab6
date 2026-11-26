@@ -74,6 +74,7 @@ void task1003() {
     };
     printf("\nЗадание номер 1003\n");
     printf("Введите k: ");
+    scanf("%d", &k);
     for (int i = 0; i < 8; i++) {
         for (int j = 0; j < 8; j++) {
             if (list[i][j] %k == 0) {
