@@ -130,7 +130,7 @@ void task998() {
     };
     printf("\nЗадание номер 930\n");
     for (int i = 0; i < 8; i++) {
-        for (int j = 0; j <= 8; j++) {
+        for (int j = 0; j < 8; j++) {
             if (list[i][j] >= 0) {
                 list[i][j] = 1;
             } else {
